@@ -1,5 +1,6 @@
 use std::fmt;
 
+//This following technique is known as the "new-type pattern"
 struct List(Vec<i32>);
 
 // The 'Display' trait is the format trait for an empty format, {}
